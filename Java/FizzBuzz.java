@@ -1,6 +1,6 @@
 //プログラムは解法が一つじゃない。複数の方法でプログラムを作れるようになるべし。
 
-import java.util.*;
+// import java.util.*;
 
 public class FizzBuzz {
     public static void main(String[] args) throws Exception {

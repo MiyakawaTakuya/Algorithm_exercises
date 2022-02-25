@@ -56,6 +56,7 @@ public class Algorithm_patrol {
             Point p = new Point(scanner.nextInt(), scanner.nextInt());
             points.add(p);
         }
+        scanner.close();
 
         // 座標を並べ替えた経路を作る
         // List<Point> resultRoute = tsp(n + 1, points); // 貪欲法
