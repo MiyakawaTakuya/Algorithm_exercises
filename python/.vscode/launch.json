@@ -1,0 +1,30 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    //https://project.nikkeibp.co.jp/bnt/atcl/19/P95930/022100004/
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            // "program": "${file}",
+            // "program": "${workspaceFolder}/Prime.py",
+            "program": "/Users/miyagawatakuya/G's Task/Algorithm/python/pai_exercises/Prime.py",
+            // "cwd": "${workspaceFolder}",
+            // "cwd": "${workspaceRoot}",
+            // "program": "${workspaceFolder}/python/pai_exercises/Prime.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            // "cwd": "/Users/miyagawatakuya/G\\'s Task/Algorithm/python/pai_exercises"
+            // "env": {
+            //     "PYTHONPATH": "/Users/miyagawatakuya/G's Task/Algorithm/python/pai_exercises"
+            // }
+            // "python": "${workspaceFolder}/python/pai_exercises"
+            // "python": "/Users/miyagawatakuya/G\\'s Task/Algorithm/python/pai_exercises"
+            // "python": "/Users/miyagawatakuya/G\\'s Task/Algorithm/python/pai_exercises/Prime.py"
+            // "python": "/Users/miyagawatakuya/G\\'s Task/Algorithm"
+        }
+    ]
+}

@@ -4,9 +4,11 @@
 # for https://udemy.benesse.co.jp/development/python-work/python-for.html
 # math.floor ceil https://note.nkmk.me/python-math-floor-ceil-int/
 import math
+# import os
+# folder = os.getcwd()
+# print(folder) #/Users/miyagawatakuya/G's Task/Algorithm/python/pai_exercises
 
-
-# if __name__ == '__main__':
+# # if __name__ == '__main__':
 N = int(input())
 is_prime = True
 
