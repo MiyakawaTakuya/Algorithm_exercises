@@ -1,0 +1,7 @@
+基本的なPythonの書き方を学ぶときに参照したサイトとか
+
+# pythonでの型指定について https://qiita.com/papi_tokei/items/bf652696d6b98f23565a
+# listの使い方まとめ https://atmarkit.itmedia.co.jp/ait/articles/2012/25/news023.html#access2itembyidx
+# Pythonのリストの要素のインデックス（何番目か）を取得 https://note.nkmk.me/python-list-index/
+# range関数 https://www.javadrive.jp/python/function/index6.html
+# max() min()のインデックス https://hibiki-press.tech/python/max_min_index/586

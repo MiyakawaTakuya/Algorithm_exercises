@@ -1,5 +1,6 @@
 from typing import List, Final
-
+# pythonでの型指定について https://qiita.com/papi_tokei/items/bf652696d6b98f23565a
+# listの使い方まとめ https://atmarkit.itmedia.co.jp/ait/articles/2012/25/news023.html#access2itembyidx
 
 class Solution:
     def twoSum(self, nums, target) -> List[int]:
