@@ -1,4 +1,5 @@
 基本的なPythonの書き方を学ぶときに参照したサイトとか
+# python 公式ドキュメント https://www.python.org/
 
 # pythonでの型指定について https://qiita.com/papi_tokei/items/bf652696d6b98f23565a
 # listの使い方まとめ https://atmarkit.itmedia.co.jp/ait/articles/2012/25/news023.html#access2itembyidx
