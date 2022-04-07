@@ -1,8 +1,16 @@
 基本的なPythonの書き方を学ぶときに参照したサイトとか
 # python 公式ドキュメント https://www.python.org/
+# LeetCodeに関する記事 https://qiita.com/ktsujino/items/9cfa31dced5a68720485
+# 記事 Codecamp LeetCodeの問題抜粋 https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b
 
 # pythonでの型指定について https://qiita.com/papi_tokei/items/bf652696d6b98f23565a
 # listの使い方まとめ https://atmarkit.itmedia.co.jp/ait/articles/2012/25/news023.html#access2itembyidx
 # Pythonのリストの要素のインデックス（何番目か）を取得 https://note.nkmk.me/python-list-index/
 # range関数 https://www.javadrive.jp/python/function/index6.html
 # max() min()のインデックス https://hibiki-press.tech/python/max_min_index/586
+
+#initialize array filled 0 all
+left, right, answer = [0]*length, [0]*length, [0]*length
+
+#for method rebersed
+for i in reversed(range(length)): 
