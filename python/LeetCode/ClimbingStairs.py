@@ -9,7 +9,6 @@ class Solution:
             if n < 3:
                 return a
             return fibona(a+b, a, n-1)
-
         if n == 1:
             return 1
         elif n == 2:
@@ -17,10 +16,27 @@ class Solution:
         else:
             return fibona(2, 1, n)
 
+    # Approach 1: Brute Force
+    def climbStairsA(self, n: int) -> int:
+        def _climb_Stairs(i: int, n: int) -> int:
+            if i > n:
+                return 0
+            if i == n:
+                return 1
+            return _climb_Stairs(i+1, n) + _climb_Stairs(i+2, n)
+        return _climb_Stairs(0, n)
+# Algorithm
+# In this brute force approach we take all possible step combinations i.e. 1 and 2, at every step.
+# At every step we are calling the function climbStairsclimbStairs for step 11 and 22,
+# and return the sum of returned values of both functions.
+# climbStairs(i, n) = (i + 1, n) + climbStairs(i + 2, n)climbStairs(i, n) = (i+1, n)+climbStairs(i+2, n)
+# where ii defines the current step and nn defines the destination step.
+
 
 solution = Solution()
-a = 5
-print(solution.climbStairs(a))
+a = 6
+print(solution.climbStairsA(a))
+
 
 # normal fibonacci
 #     def climbStairs(self, n: int) -> int:
